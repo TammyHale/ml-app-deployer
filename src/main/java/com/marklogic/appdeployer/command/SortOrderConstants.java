@@ -54,6 +54,8 @@ public abstract class SortOrderConstants {
 
     public static Integer DEPLOY_FOREST_REPLICAS = 1200;
     
+    public static Integer DEPLOY_PARTITIONS = 1300;
+    
     // Undo constants
     public static Integer DELETE_GROUPS = 10000;
 

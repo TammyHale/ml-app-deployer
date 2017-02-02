@@ -13,14 +13,14 @@ public class ManageConfig extends RestConfig {
      * These are assumed as sensible defaults in a development environment, where teams often use admin/admin for the
      * admin login. They are of course expected to change in a real environment.
      */
-    public static final String DEFAULT_USERNAME = "admin";
-    public static final String DEFAULT_PASSWORD = "admin";
+    public static final String DEFAULT_USERNAME = "tammy";
+    public static final String DEFAULT_PASSWORD = "isSparta";
     
     private String adminUsername;
     private String adminPassword;
 
     public ManageConfig() {
-        this("localhost", DEFAULT_PASSWORD);
+        this("obp-test-1.demo.marklogic.com", DEFAULT_PASSWORD);
     }
 
     public ManageConfig(String host, String password) {

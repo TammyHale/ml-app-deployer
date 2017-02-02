@@ -9,7 +9,7 @@ import com.marklogic.rest.util.RestConfig;
 public class AdminConfig extends RestConfig {
 
     public AdminConfig() {
-        super("localhost", 8001, "admin", "admin");
+        super("obp-test-1.demo.marklogic.com", 8001, "tammy", "isSparta");
     }
 
     public AdminConfig(String host, String password) {
